@@ -2,11 +2,11 @@
   [
     {
       "key": "firstname",
+      "placeholder": "Camille",
       "type": "text",
       "contentType": "firstname",
       "label": "Prénom",
-      "autocomplete": "given-name",
-      "placeholder": "Camille"
+      "autocomplete": "given-name"
     },
     {
       "key": "lastname",
@@ -21,10 +21,10 @@
       "type": "text",
       "contentType": "birthday",
       "label": "Date de naissance",
-      "autocomplete": "birthday",
+      "autocomplete": "bday-day",
       "pattern": "^([0][1-9]|[1-2][0-9]|30|31)\/([0][1-9]|10|11|12)\/(19[0-9][0-9]|20[0-1][0-9]|2020)",
       "maxlength": 10,
-      "placeholder": "01/01/1970"
+      "placeholder": "07/09/1998"
     }
   ],
   [
@@ -33,7 +33,7 @@
       "type": "text",
       "contentType": "cityofbirth",
       "label": "Lieu de naissance",
-      "autocomplete": "off",
+      "autocomplete": "city",
       "placeholder": "Paris"
     },
     {
@@ -42,7 +42,8 @@
       "contentType": "address",
       "label": "Adresse",
       "autocomplete": "address-line1",
-      "placeholder": "999 avenue de France"
+      "placeholder": "73 bis Boulevard Exelmans",
+      "value":"Alessandro"
     },
     {
       "key": "city",
